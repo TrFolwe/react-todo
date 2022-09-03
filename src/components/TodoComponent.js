@@ -9,7 +9,7 @@ function Todo() {
     <button type={'submit'}  onClick={() => setTodo([...todo, todoValue])}>Add new todo</button>
     <ul>
       {todo.map(td => (
-        <li>{td} <button type={'submit'}>Delete</button></li>
+        <li>{td}<br></br><button type={'submit'}>Delete</button></li>
       ))}
     </ul>
     </>
